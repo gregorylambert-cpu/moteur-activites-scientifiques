@@ -1,15 +1,16 @@
-# Moteur de ressources INRAE V0.8 — corpus 380
+# Moteur de ressources INRAE V0.9 — corpus de 636 ressources
 
-Base du moteur V0.7, avec son architecture et sa logique de recherche conservées, alimentée par le corpus consolidé de 380 ressources.
+Version actualisée à partir du corpus INRAE dédoublonné et des tags harmonisés.
 
-## Recherche
-- concepts en ET ;
-- synonymes historiques du V0.7 ;
-- exclusion des mots génériques ;
-- score interne pour le classement ;
-- recherche dans les métadonnées historiques + taxonomie V1.
+## Fonctionnement
+- Corpus de 636 ressources dans `data.json`.
+- Copie embarquée du même corpus dans `index.html` pour conserver le fonctionnement autonome sans serveur.
+- Recherche par concepts, avec synonymes et classement interne.
+- Filtres : type harmonisé, domaine scientifique, sujet, approche, contexte, thématique historique, centre, accessibilité et porteur.
+- Les tags harmonisés sont la base des mots-clés de chaque fiche.
 
-## Filtres V1
-Type, domaine scientifique, sujet, approche, contexte, puis filtres historiques (thématique, centre, accessibilité, porteur).
+## Lancement
+Ouvrir `index.html` dans un navigateur. `data.json` est fourni séparément pour consultation et réutilisation, mais la page autonome utilise la copie embarquée.
 
-Le corpus est séparé dans `data.json`. `index.html` contient également une copie embarquée pour conserver le fonctionnement sans serveur du V0.7.
+## À garder en tête
+Les classifications type/domaine/sujet/approche/contexte sont une première structuration automatique à valider par des tests de recherche. Les fiches dont les tags étaient « à qualifier » conservent leurs champs descriptifs, mais n'ont pas de tags harmonisés ajoutés artificiellement.
