@@ -1,10 +1,10 @@
-# Moteur de recherche des ressources INRAE — version 1.0
+Moteur de ressources INRAE — version 1.1
 
-Version améliorée du classement et de l’interprétation des requêtes.
+672 notices indexées : corpus précédent de 636 ressources + 36 nouvelles notices ajoutées depuis le classeur HAL / corpus consolidé.
 
-- Les expressions composées sont recherchées comme des concepts : « jeux sérieux » + « transition écologique », « changement climatique », « sciences participatives », « microbiote intestinal ».
-- Le classement privilégie le titre, puis les tags, puis les champs thématiques, avant les métadonnées générales.
-- Les synonymes sont normalisés sans accents et la recherche gère mieux les pluriels courts.
-- La recherche reste locale : ouvrir `index.html` dans un navigateur.
+Filtres latéraux : Type, Domaine scientifique, Centre INRAE.
+Recherche textuelle : titre, tags, domaines/sujets, métadonnées.
 
-Corpus : 636 ressources.
+Les notices HAL ajoutées pointent vers les notices HAL. Leur présence ne garantit pas que le fichier joint soit disponible ou vérifié : le champ Accessibilité le signale.
+
+Ouvrir index.html dans un navigateur. Le fichier HTML est autonome ; data.json est fourni pour réutilisation.
