@@ -1,10 +1,5 @@
-Moteur de ressources INRAE — version 1.1
+# Moteur de ressources INRAE — V1.2
 
-672 notices indexées : corpus précédent de 636 ressources + 36 nouvelles notices ajoutées depuis le classeur HAL / corpus consolidé.
+Déploiement GitHub Pages : placer `index.html` à la racine du dépôt.
 
-Filtres latéraux : Type, Domaine scientifique, Centre INRAE.
-Recherche textuelle : titre, tags, domaines/sujets, métadonnées.
-
-Les notices HAL ajoutées pointent vers les notices HAL. Leur présence ne garantit pas que le fichier joint soit disponible ou vérifié : le champ Accessibilité le signale.
-
-Ouvrir index.html dans un navigateur. Le fichier HTML est autonome ; data.json est fourni pour réutilisation.
+Cette version conserve les 672 ressources. Les résultats sont classés par pertinence, puis les 10 premières positions sont diversifiées par type : le meilleur résultat de chaque type est proposé avant les doublons de format. Si moins de 10 types correspondent, les places restantes sont complétées par le classement global. Les filtres par type, domaine et centre restent disponibles.
