@@ -1,5 +1,12 @@
-# Moteur de ressources INRAE — V1.2
+# Moteur INRAE – ressources de médiation scientifique
 
-Déploiement GitHub Pages : placer `index.html` à la racine du dépôt.
+Déploiement GitHub Pages : publier `index.html` à la racine du dépôt.
 
-Cette version conserve les 672 ressources. Les résultats sont classés par pertinence, puis les 10 premières positions sont diversifiées par type : le meilleur résultat de chaque type est proposé avant les doublons de format. Si moins de 10 types correspondent, les places restantes sont complétées par le classement global. Les filtres par type, domaine et centre restent disponibles.
+Le filtre « Centre INRAE » reprend les 18 centres de recherche figurant sur la page officielle
+https://www.inrae.fr/nous-connaitre/organigramme (consultée le 27 novembre 2026).
+
+Une option distincte « National / multi-centres » est conservée pour les ressources qui ne sont
+pas rattachées à un centre unique. Les ressources rattachées à plusieurs centres peuvent être
+retrouvées depuis chacun des centres concernés.
+
+Corpus : 672 ressources.
